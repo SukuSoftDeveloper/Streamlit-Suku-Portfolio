@@ -50,7 +50,7 @@ with st.container():
     st.write("---")
     st.header("My Projects")
     st.write("##")
-    image_column , text_column = st.columns((1,2))
+    text_column = st.columns(1)
     # with image_column:
     #     st.image("Images/code1.jpg")
        
@@ -68,7 +68,7 @@ with st.container():
         st.markdown("[Watch Video...](https://youtube.com)")
 with st.container():
     st.write("##")
-    image_column , text_column = st.columns((1,2))
+    text_column = st.columns(1)
     # with image_column:
     #     st.image("Images/code2.jpg")
 
