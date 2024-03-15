@@ -19,8 +19,8 @@ local_css("style/style.css")
 #---Load assets----
 
 lottie_coding = load_lottieurl("https://lottie.host/9f4a6f87-f615-4fb3-9f7f-b81f257aa50e/9LFVceCtCy.json")
-img_contact_form1 = Image.open("Images/code1.jpg")
-img_contact_form2 = Image.open("Images/code2.jpg")
+# img_contact_form1 = Image.open("Images/code1.jpg")
+# img_contact_form2 = Image.open("Images/code2.jpg")
 
 with st.container():
     st.subheader("Hii, Iam Sudheer Kumar :wave:")
@@ -52,7 +52,8 @@ with st.container():
     st.write("##")
     image_column , text_column = st.columns((1,2))
     with image_column:
-        st.image(img_contact_form1)
+        st.image("Images/code1.jpg")
+       
 
     
     with text_column:
@@ -69,7 +70,7 @@ with st.container():
     st.write("##")
     image_column , text_column = st.columns((1,2))
     with image_column:
-        st.image(img_contact_form2)
+        st.image("Images/code2.jpg")
 
     
     with text_column:
