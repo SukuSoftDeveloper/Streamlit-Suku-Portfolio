@@ -51,8 +51,8 @@ with st.container():
     st.header("My Projects")
     st.write("##")
     image_column , text_column = st.columns((1,2))
-    with image_column:
-        st.image("Images/code1.jpg")
+    # with image_column:
+    #     st.image("Images/code1.jpg")
        
 
     
@@ -69,8 +69,8 @@ with st.container():
 with st.container():
     st.write("##")
     image_column , text_column = st.columns((1,2))
-    with image_column:
-        st.image("Images/code2.jpg")
+    # with image_column:
+    #     st.image("Images/code2.jpg")
 
     
     with text_column:
