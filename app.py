@@ -50,39 +50,32 @@ with st.container():
     st.write("---")
     st.header("My Projects")
     st.write("##")
-    text_column = st.columns(1)
+    text_column = st.columns((1,1))
     # with image_column:
     #     st.image("Images/code1.jpg")
-       
-
-    
-    with text_column:
-        st.subheader("Integrate Lottie Animations Inside your Streamlit App")
-        st.write(
+    st.subheader("Integrate Lottie Animations Inside your Streamlit App")
+    st.write(
             """
             Learn how to use lottie Files in Staremlit!
             Animations make to use use in our Web more enaging fun, and lotties files are earsiest way to do.
             In this tutorials, we can learn all those things.
             """
-        )
-        st.markdown("[Watch Video...](https://youtube.com)")
+    )
+    st.markdown("[Watch Video...](https://youtube.com)")
 with st.container():
     st.write("##")
-    text_column = st.columns(1)
+    text_column = st.columns((1,1))
     # with image_column:
     #     st.image("Images/code2.jpg")
-
-    
-    with text_column:
-        st.subheader("Integrate Lottie Animations Inside your Streamlit App")
-        st.write(
+    st.subheader("Integrate Lottie Animations Inside your Streamlit App")
+    st.write(
             """
             Learn how to use lottie Files in Staremlit!
             Animations make to use use in our Web more enaging fun, and lotties files are earsiest way to do.
             In this tutorials, we can learn all those things.
             """
-        )
-        st.markdown("[Watch Video...](https://youtube.com)")
+    )
+    st.markdown("[Watch Video...](https://youtube.com)")
 
 with st.container():
     st.write("---")
