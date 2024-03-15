@@ -88,7 +88,9 @@ with st.container():
      <input type="hidden" name="_captcha" value="false">
      <input type="text" name="name" placeholder="Your Name" required>
      <input type="email" name="email" placeholder="Your Email" required>
-     <textarea name="message" placeholder "Your Message Here" required></textarea>
+     <input type="text" name="Number" placeholder="Mobile Number" required>
+     <input type="date" name="date" placeholder="DOB" required>
+     <textarea name="message" placeholder= "Address" required></textarea>
 
      <button type="submit">Send</button>
     </form>"""
